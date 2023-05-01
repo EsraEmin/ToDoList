@@ -150,17 +150,47 @@ h3 {
     text-align: center;
 }
 
-.btn {
+.btn1 {
     color: #e9feff;
     border: 0,7rem solid var(--dark); 
-    background-color: var(--dark);
+    background-color: var(--lilmov);
     border-radius: 0.5rem;
     padding: 1rem 3rem;
     transition: 0.3s;
 }
 
-.btn:hover {
+.btn2 {
+    color: #e9feff;
+    border: 0,7rem solid var(--dark); 
+    background-color: var(--lilmov);
+    border-radius: 0.5rem;
+    padding: 1rem 3rem;
+    transition: 0.3s;
+}
+ 
+.btn3 {
+    color: #e9feff;
+    border: 0,7rem solid var(--dark); 
+    background-color: var(--lilmov);
+    border-radius: 0.5rem;
+    padding: 1rem 3rem;
+    transition: 0.3s;
+}
+
+.btn1:hover {
     background-color: var(--todo);
+    cursor: pointer;
+    border: solid var(--mov); 
+}
+
+.btn2:hover {
+    background-color: var(--btnn);
+    cursor: pointer;
+    border: solid var(--mov); 
+}
+
+.btn3:hover {
+    background-color: var(--danger);
     cursor: pointer;
     border: solid var(--mov); 
 }

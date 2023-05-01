@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,700;0,900;1,400&family=Montserrat:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+    <title>MyToDo</title>
+</head>
+<body>
+    <div>
+        <section class="greetting">
+            <h1 class="title">Let`s make your To Do list!</h1>
+            <h3 class="title">-write your tasks bellow-</h3>
+        </section>
+
+        <section class="create-todo">
+            <form id="new-todo-form">
+                <div class="writetask">
+                    <input type="text" placeholder="e.g. Get some sleep" name="content" id="content" />
+                </div>
+                <input type="submit" value="Add ToDo"/>
+            </form>
+        </section>
+    </div>
+
+    <section class="status">
+        <h3>Your To Do status:</h3>
+        <button class="btn" id="all">All</button>
+        <button class="btn" id="active">Active</button>
+        <button class="btn" id="completed">Completed</button>
+    </section>
+
+    <section class="todo-list">
+        <div id="todo-list" class="list"></div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
